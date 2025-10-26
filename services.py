@@ -6,8 +6,7 @@ import binascii
 
 async def services(address):
     async with BleakClient(address) as client:
-        services = await client.get_services()
-        return services
+        return client.services
     return False
 
 
