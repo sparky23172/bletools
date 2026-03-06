@@ -55,3 +55,12 @@ This program connects to a BLE device and reads a characteristic
 usage: ./read.py <device MAC> <characteristic UUID>
 ```
 
+### btsnoopParser.py
+
+This program takes the btsnoop_hcl.log and parses data with the btatt filter. 
+It will then show all of the data found. At the end, it will show the GATT table along with code that is compatable with notify-and-write.py
+
+```
+usage: ./btsnoopParser.py ./btsnoop_hci.log
+```
+
