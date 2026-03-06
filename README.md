@@ -1,5 +1,5 @@
 # bletools
-BLE pentesting scripts
+BLE pentesting scripts (This is based off of https://github.com/nmatt0's version of the scripts! I just wanted a parser added)
 
 ## BLE Hacking Resources
 
